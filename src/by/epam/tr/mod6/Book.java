@@ -2,7 +2,7 @@ package by.epam.tr.mod6;
 
 import java.util.List;
 
-public class Book extends CompositionCollection {
+public class Book extends CompositionCollection {// куда пропали методы equals и HashCode - объект класса ведь данные хранит.
 	private String edition;
 	
 	public Book(String _name,List<PieceOfArt> _list){
